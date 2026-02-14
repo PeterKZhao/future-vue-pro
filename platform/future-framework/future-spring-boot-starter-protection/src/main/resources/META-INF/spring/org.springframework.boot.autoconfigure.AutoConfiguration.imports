@@ -1,0 +1,4 @@
+cn.iocoder.future.framework.idempotent.config.FutureIdempotentConfiguration
+cn.iocoder.future.framework.lock4j.config.FutureLock4jConfiguration
+cn.iocoder.future.framework.ratelimiter.config.FutureRateLimiterConfiguration
+cn.iocoder.future.framework.signature.config.FutureApiSignatureAutoConfiguration

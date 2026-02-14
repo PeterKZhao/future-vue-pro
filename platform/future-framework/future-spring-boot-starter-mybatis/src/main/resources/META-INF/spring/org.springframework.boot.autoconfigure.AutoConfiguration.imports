@@ -1,0 +1,3 @@
+cn.iocoder.future.framework.datasource.config.FutureDataSourceAutoConfiguration
+cn.iocoder.future.framework.mybatis.config.FutureMybatisAutoConfiguration
+cn.iocoder.future.framework.translate.config.FutureTranslateAutoConfiguration

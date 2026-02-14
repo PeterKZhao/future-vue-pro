@@ -1,0 +1,7 @@
+cn.iocoder.future.framework.apilog.config.FutureApiLogAutoConfiguration
+cn.iocoder.future.framework.jackson.config.FutureJacksonAutoConfiguration
+cn.iocoder.future.framework.swagger.config.FutureSwaggerAutoConfiguration
+cn.iocoder.future.framework.web.config.FutureWebAutoConfiguration
+cn.iocoder.future.framework.xss.config.FutureXssAutoConfiguration
+cn.iocoder.future.framework.banner.config.FutureBannerAutoConfiguration
+cn.iocoder.future.framework.encrypt.config.FutureApiEncryptAutoConfiguration

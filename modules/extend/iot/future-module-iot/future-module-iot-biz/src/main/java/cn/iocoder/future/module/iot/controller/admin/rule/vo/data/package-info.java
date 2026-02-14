@@ -1,0 +1,1 @@
+package cn.iocoder.future.module.iot.controller.admin.rule.vo.data;

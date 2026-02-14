@@ -1,0 +1,3 @@
+cn.iocoder.future.framework.security.config.FutureSecurityAutoConfiguration
+cn.iocoder.future.framework.security.config.FutureWebSecurityConfigurerAdapter
+cn.iocoder.future.framework.operatelog.config.FutureOperateLogConfiguration

@@ -1,0 +1,2 @@
+cn.iocoder.future.framework.redis.config.FutureRedisAutoConfiguration
+cn.iocoder.future.framework.redis.config.FutureCacheAutoConfiguration

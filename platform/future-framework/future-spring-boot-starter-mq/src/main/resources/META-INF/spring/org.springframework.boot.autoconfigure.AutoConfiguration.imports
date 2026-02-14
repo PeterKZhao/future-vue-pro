@@ -1,0 +1,3 @@
+cn.iocoder.future.framework.mq.redis.config.FutureRedisMQProducerAutoConfiguration
+cn.iocoder.future.framework.mq.redis.config.FutureRedisMQConsumerAutoConfiguration
+cn.iocoder.future.framework.mq.rabbitmq.config.FutureRabbitMQAutoConfiguration

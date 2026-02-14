@@ -1,0 +1,2 @@
+cn.iocoder.future.framework.quartz.config.FutureQuartzAutoConfiguration
+cn.iocoder.future.framework.quartz.config.FutureAsyncAutoConfiguration

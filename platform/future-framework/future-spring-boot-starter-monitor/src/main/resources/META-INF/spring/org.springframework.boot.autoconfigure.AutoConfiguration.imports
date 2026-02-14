@@ -1,0 +1,2 @@
+cn.iocoder.future.framework.tracer.config.FutureTracerAutoConfiguration
+cn.iocoder.future.framework.tracer.config.FutureMetricsAutoConfiguration

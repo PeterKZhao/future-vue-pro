@@ -1,0 +1,1 @@
+package cn.iocoder.future.module.crm.dal.mysql.permission;

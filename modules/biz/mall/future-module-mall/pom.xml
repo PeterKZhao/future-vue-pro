@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>future</artifactId>
+        <groupId>cn.iocoder.boot</groupId>
+        <version>${revision}</version>
+    
+        <relativePath>../../../../pom.xml</relativePath>
+        </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>future-module-mall</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+
+    <description>
+        商城大模块，由 product 商品、promotion 营销、trade 交易、statistics 统计等组成
+    </description>
+    <modules>
+        <module>future-module-product</module>
+        <module>future-module-promotion</module>
+        <module>future-module-trade</module>
+        <module>future-module-statistics</module>
+        <!--
+            特殊：为什么会有 future-module-trade-api 呢？
+                future-module-promotion 和 future-module-trade 之间相互循环依赖，所以抽出 future-module-trade-api 模块，这样：
+                1. future-module-promotion 依赖 future-module-trade-api
+                2. future-module-trade 依赖 future-module-promotion
+            从而不存在相互（循环）依赖，即 future-module-trade => future-module-promotion => future-module-trade-api
+         -->
+        <module>future-module-trade-api</module>
+    </modules>
+
+</project>
