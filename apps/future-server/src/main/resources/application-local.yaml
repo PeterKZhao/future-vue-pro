@@ -47,7 +47,7 @@ spring:
       primary: master
       datasource:
         master:
-          url: jdbc:postgresql://101.201.151.98:5432/future-vue-pro
+          url: jdbc:postgresql://${DB_HOST}:5432/future-vue-pro
           #          url: jdbc:mysql://127.0.0.1:3306/future-vue-pro?useSSL=true&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true # MySQL Connector/J 5.X 连接的示例
           #          url: jdbc:postgresql://127.0.0.1:5432/future-vue-pro # PostgreSQL 连接的示例
           #          url: jdbc:oracle:thin:@127.0.0.1:1521:xe # Oracle 连接的示例
@@ -80,7 +80,7 @@ spring:
   # Redis 配置。Redisson 默认的配置足够使用，一般不需要进行调优
   data:
     redis:
-      host: 101.201.151.98 # 地址
+      host: ${REDIS_HOST} # 地址
       port: 6379 # 端口
       database: 0 # 数据库索引
       password: ${REDIS_PASSWORD} # 密码，建议生产环境开启
